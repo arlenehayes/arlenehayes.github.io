@@ -1,0 +1,29 @@
+/*CSS for Multi-Page Website*/
+
+body{
+	font-size: 10px;
+	line-height: 1.8em;
+	padding-left: 2em;
+	}
+	
+h1{
+	font-size: 1.8em;
+	line-height: 1em;
+	margin-top: 1em;
+	}
+	
+div{
+	font-size: 1.2em;
+	line-height: 1.5em;
+	}
+
+#address{
+	padding-top: .5em;
+	padding-bottom: 1em;
+	}
+
+h2{
+	font-weight: bold;
+	padding-top: 1em;
+	}
+	
