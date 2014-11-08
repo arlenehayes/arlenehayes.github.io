@@ -27,3 +27,40 @@ h2{
 	padding-top: 1em;
 	}
 	
+	
+/*Contact page styling*/
+
+h3{
+	font-size: 1.6em;
+	}
+	
+#emailme{
+	text-align:center;
+	}
+	
+form{
+	padding-top: 0.4em;
+	padding-bottom: 0.4em;
+	}
+	
+form div + div{
+	margin-top: 1em;
+	}
+
+label{
+	font-size: 1.4em;
+	line-height: 1.286em;
+	text-align: right;
+	display: inline-block;
+	}
+
+input, textarea{
+	font-size: 1.4em;
+	line-height: 1.286em;
+	/*padding-top: 0.1em;
+	padding-bottom: 0.1em;
+	vertical-align: center;*/
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+	
