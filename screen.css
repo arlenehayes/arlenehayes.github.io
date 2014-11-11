@@ -61,10 +61,6 @@ h4{
 	text-align:left;
 	}
 	
-#socialmedia{
-	text-align: center;
-	}
-	
 form{
 	text-align: center;
 	padding-top: 0.4em;
@@ -95,7 +91,7 @@ input, textarea, select {
 	border: 0.1em solid rgb(204,204,204);
 	border-radius: 0.4em;
 	padding: .2em;
-	line-height: 1.286em;
+	line-height: 1.5em;
 	}	
 
 button {
@@ -103,7 +99,12 @@ button {
 	margin-bottom: 3.6em;
 	border-radius: .8em;
 	}
-	
+
+#socialmedia{
+	text-align: center;
+	font-size: 1.4em;
+	line-height: 1.286em;
+	}	
 
 	
 /*Media Queries for Contact Page*/
