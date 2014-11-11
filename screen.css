@@ -50,6 +50,7 @@ a:hover{
 
 	}
 	
+	
 /*Contact page styling*/
 
 h4{
@@ -69,7 +70,7 @@ form{
 	padding-bottom: 0.4em;
 	}
 	
-form div + div{
+form p + p{
 	margin-top: 1em;
 	}
 
@@ -79,26 +80,20 @@ label{
 	text-align: right;
 	display: inline-block;
 	}
-input, textarea {
-	font: 1.4em sans-serif;
+
+input, textarea{
+	font-size: 1.4em;
 	width: 60%;
 	display: inline-block;
-	vertical-align: top;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	border: 0.1em solid rgb(204,204,204);
-	border-radius: 1em;
-	padding: .5em;
-	}
-/*input, textarea{
-	font-size: 1.4em;
-	line-height: 1.286em;
-	/*padding-top: 0.1em;
-	padding-bottom: 0.1em;
 	vertical-align: center;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	}*/
+	border: 0.1em solid rgb(204,204,204);
+	border-radius: 0.4em;
+	padding: .2em;
+	line-height: 1.286em;
+	}	
+	
 
 /*Home page*/
 
@@ -129,6 +124,7 @@ a{
 	padding-left: 2em;
 	padding-right: 2em;
 	}
+	
 	
 /*Footer*/
 
