@@ -8,8 +8,10 @@ body{
 	}
 	
 h1{
-	font-size: 2.4em;
+	font-size: 4.6em;
+	line-height: 1.28em;
 	text-align: center;
+	margin-top: 1.8em;
 	}
 	
 h2{
@@ -77,6 +79,7 @@ input, textarea{
 /*Home page*/
 
 nav{
+	font-size: 
 	position: relative;
 	float: none;
 	}
