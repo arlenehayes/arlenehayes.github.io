@@ -81,11 +81,13 @@ label{
 	display: inline-block;
 	}
 
-input, textarea{
-	font-size: 1.4em;
+input, textarea, select {
+	font-size: 1.2em;
 	width: 60%;
+	margin: 0;
 	display: inline-block;
 	vertical-align: center;
+	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	border: 0.1em solid rgb(204,204,204);
