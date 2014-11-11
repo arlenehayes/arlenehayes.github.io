@@ -1,17 +1,11 @@
 /*CSS for Multi-Page Website*/
 
 body{
+	width: 100%;
 	font-size: 10px;
 	font-family: 'Istok Web', sans-serif;
 	line-height: 1.8em;
-	padding-left: 2em;
-	}
-	
-h1{
-	font-size: 4.6em;
-	line-height: 1.28em;
-	text-align: center;
-	margin-top: 1.8em;
+	/*padding-left: 2em;*/
 	}
 	
 h2{
@@ -78,9 +72,33 @@ input, textarea{
 
 /*Home page*/
 
+h1{
+	font-size: 4.6em;
+	line-height: 1.28em;
+	text-align: center;
+	padding-top: 1.8em;
+	padding-bottom: 1.8em;
+	}
+
+#intro{
+	
+	background-color: rgba(174,117,178,.65);
+	text-align: center;
+	}
+	
 nav{
-	font-size: 
+	font-size: 1.2em;
+	line-height: 1.286em;
+	display: inline;
 	position: relative;
 	float: none;
 	}
+
+a{
+	padding-left: 2em;
+	padding-right: 2em;
+	}
+	
+	
+
 	
