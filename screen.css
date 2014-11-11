@@ -95,7 +95,12 @@ input, textarea, select {
 	padding: .2em;
 	line-height: 1.286em;
 	}	
-	
+
+button {
+	margin-top: 1.286em;
+	margin-bottom: 3.6em;
+	border-radius: .8em;
+	}
 
 /*Home page*/
 
