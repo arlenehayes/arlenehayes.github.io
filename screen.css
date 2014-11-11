@@ -58,7 +58,7 @@ h4{
 	}
 	
 #emailme{
-	text-align:center;
+	text-align:left;
 	}
 	
 #socialmedia{
@@ -66,6 +66,7 @@ h4{
 	}
 	
 form{
+	text-align: center;
 	padding-top: 0.4em;
 	padding-bottom: 0.4em;
 	}
@@ -79,6 +80,7 @@ label{
 	line-height: 1.286em;
 	text-align: right;
 	display: inline-block;
+	width: 9em;
 	}
 
 input, textarea, select {
