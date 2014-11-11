@@ -103,6 +103,21 @@ button {
 	margin-bottom: 3.6em;
 	border-radius: .8em;
 	}
+	
+
+	
+/*Media Queries for Contact Page*/
+
+@media screen and (min-width 30em){
+	label{
+		text-align: left;
+		float:left;
+		width: 20%
+		}
+	input, textarea, select{
+		float: none;
+		}
+	
 
 /*Home page*/
 
@@ -151,7 +166,7 @@ footer{
 	padding-bottom:1em;
 	}
 	
-	
+
 	
 
 	
