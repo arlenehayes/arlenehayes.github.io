@@ -3,7 +3,7 @@
 
 
 body{	
-	font-size: 10px;
+	font-size: 10px; /*em sizing from here on out is based off a 10px scale*/
 	font-family: 'Istok Web', sans-serif;
 	line-height: 1.8em;
 	/*padding-left: 2em;*/
@@ -84,35 +84,34 @@ a:hover{
 	
 /*Contact page styling*/
 
-
+#emailme h3{
+	text-align: left;
+	padding-bottom: 1.8em;
+	}
 	
 #emailme{
-	text-align:left;
+	width: 80%;
+	margin: auto;
 	}
 	
-form{
-	text-align: center;
-	padding-top: 0.4em;
-	padding-bottom: 0.4em;
-	}
-	
+
 form p + p{
 	margin-top: 1em;
 	}
 
 label{
-	font-size: 1.4em;
+	font-size: 1.2em;
 	line-height: 1.286em;
-	text-align: right;
+	text-align: left;
 	display: block;
 	/*width: 9em;*/
 	}
-
+	
 input, textarea, select {
 	font-size: 1.2em;
 	width: 60%;
 	margin: 0;
-	display: inline-block;
+	display: block;
 	vertical-align: center;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -123,6 +122,12 @@ input, textarea, select {
 	line-height: 1.5em;
 	}	
 	
+#message{
+	width:60%;
+	height: 9em;
+	font-size: 1.2em;
+	}
+	
 button {
 	margin-top: 1.286em;
 	margin-bottom: 3.6em;
@@ -130,6 +135,7 @@ button {
 	}
 
 #socialmedia{
+	padding-top: 2.4em;
 	text-align: center;
 	font-size: 1.4em;
 	line-height: 1.286em;
@@ -137,7 +143,7 @@ button {
 
 	
 /*Media Queries for Contact Page*/
-
+/*
 @media screen and (min-width: 30em){
 	label{
 		text-align: left;
@@ -148,7 +154,7 @@ button {
 		float: none;
 		}
 	}
-	
+	*/
 	
 /*Footer*/
 
