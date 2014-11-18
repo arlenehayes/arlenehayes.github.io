@@ -34,6 +34,8 @@ nav{
 	display: inline-block;
 	position: relative;
 	float: none;
+	background-color: rgb(126,37,113);
+	font: white;
 	}
 
 a{
@@ -116,7 +118,6 @@ input, textarea, select {
 	width: 60%;
 	margin: 0;
 	display: block;
-	vertical-align: center;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -169,6 +170,8 @@ button {
 	/*height: 8.28em; /*Same height as padding above name in intro*/
 	background-color: rgba(174,117,178,.35);
 	margin-top: 7.2em;
+	border-top-color: purple;
+	border-top-width: thick;
 	}
 	
 #copyright{
