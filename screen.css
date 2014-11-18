@@ -24,16 +24,12 @@ h1{
 
 #intro{	
 	background-color: rgba(174,117,178,.35);
-	width: 100%;
 	text-align: center;
 	}
 	
 nav{
 	font-size: 1.2em;
 	line-height: 1.286em;
-	display: inline-block;
-	position: relative;
-	float: none;
 	background-color: rgb(126,37,113);
 	font: white;
 	}
