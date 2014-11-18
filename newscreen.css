@@ -8,6 +8,8 @@ body{
 	line-height: 1.8em;
 	}
 	
+	/*Header Styles*/
+	
 #header{	
 	background-color: rgba(174,117,178,.35);
 	text-align: center;
@@ -58,7 +60,28 @@ nav li{
 	padding: 1em;
 	}
 	
+	
+	/*Footer Styles*/
+	
+#footer{
+	text-align: center;
+	margin-top: 7.2em;
+	background-color: rgba(174,117,178,.35);
+	}
+	
+#copyright{
+	padding-top:0.9em;
+	padding-bottom:0.9em;
+	background-color: rgba(126,37,113,.6);
+	}
 
+#medialinks li{
+	display: inline;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	padding: 1em;
+	padding-bottom: 0;
+	}
 
 
 
