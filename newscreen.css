@@ -1,5 +1,6 @@
 /*CSS for Multi-Page Website*/
 
+/*Overall Styling*/
 
 body{	
 	font-size: 10px; /*em sizing from here on out is based off a 10px scale*/
@@ -12,10 +13,50 @@ body{
 	text-align: center;
 	}
 	
-/*#home h1{
+h1{
 	font-size: 1.8em;
 	line-height: 1em;
-	}*/
+	padding-top: 1em;
+	padding-bottom: 1em;
+	}
+	
+nav{
+	font-size: 1.2em;
+	line-height: 1.5;
+	padding: 1em;
+	background-color: rgba(126,37,113,.6);
+	}
+	
+nav li{
+	font-size: 1.2em;
+	padding: 1em;
+	}
+
+#homelink{
+	float:right;
+	padding-right: 2em;
+	}
+	
+#content{
+	padding-top: 1.8em;
+	padding-left: 2em;
+	padding-right: 2em;
+	}
+		
+/*Homepage Specifics*/
+
+#home h1{
+	font-size: 2.4em;
+	line-height: .75em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	}
+	
+#home nav li{
+	font-size: 1.2em;
+	line-height: 1.5em;
+	padding: 1em;
+	}
 	
 
 
@@ -25,9 +66,9 @@ body{
 
 
 
+/*Media Queries*/
 
-
-@media screen and (min-width: 45em){ /*change min width*/
+@media screen and (min-width: 32em){ /*change min width*/
 	ul li{
 		display:inline;
 		}
