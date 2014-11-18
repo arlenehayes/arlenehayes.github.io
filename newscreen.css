@@ -38,6 +38,7 @@ nav{
 	
 nav li{
 	font-size: 1.2em;
+	font-weight: bold;
 	padding: 1em;
 	}
 
@@ -67,7 +68,25 @@ nav li{
 	font-size: 1.4em;
 	line-height: 1.286em;
 	font-weight: bold;
+	padding-top: 1.8em;
 	padding-bottom: 1.8em;
+	}
+	
+#home p{
+	padding-bottom: 0.8em;
+	}
+	
+img{
+	display: block;
+	margin:auto;
+	vertical-align: text-top;
+	padding-bottom: 1.8em;
+	}
+	
+#quote{
+	text-align: center;
+	font-size: 1.2em;
+	line-height: 1.5em;
 	}
 	
 	
@@ -99,6 +118,18 @@ h2{
 	}
 	
 	
+	/*Portfolio Specifics*/
+	
+#dummytext{
+	text-align: center;
+	margin-top: 1.2em;
+	font-size: 6em;
+	line-height: 1.5em;
+	border-top-style: groove;
+	border-bottom-style: groove;
+	}
+	
+	
 	/*Contact Page Specifics*/
 	
 #tab{
@@ -106,13 +137,38 @@ h2{
 	}
 
 #emailme{
+	padding-top: 1.8em;
 	padding-bottom: 1.8em;
 	border-bottom-style: groove;
+	}
+	
+#contact h3{
+	padding-bottom: 1.8em;
+	}
+	
+form li + li{
+	margin-top: 1em;
+	}
+	
+input, textarea, select {
+	display: block;
+	}	
+	
+button {
+	margin-top: 1.286em;
+	border-radius: .8em;
 	}
 	
 #socialmedia{
 	padding-top: 1.8em;
 	text-align: center;
+	font-size: 1.4em;
+	line-height: 1em;
+	}
+	
+#socialmedia li{
+	padding: 1em;
+	font-weight: bold;
 	}
 	
 	/*Footer Styles*/
@@ -137,10 +193,15 @@ h2{
 	padding-bottom: 0;
 	}
 
-
-
-
-
+	
+	/*Link Styles*/
+a:link{
+	text-decoration: none;
+	color: rgb(105,32,99)
+	}
+a:hover{
+	color: rgb(247,145,30)
+	}
 
 
 /*Media Queries*/
