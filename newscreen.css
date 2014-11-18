@@ -8,6 +8,12 @@ body{
 	line-height: 1.8em;
 	}
 	
+#content{
+	font-size: 1.2em;
+	line-height: 1.5em;
+	}
+
+	
 	/*Header Styles*/
 	
 #header{	
@@ -40,7 +46,7 @@ nav li{
 	}
 	
 #content{
-	padding-top: 1.8em;
+	padding-top: 3.6em;
 	padding-left: 2em;
 	padding-right: 2em;
 	}
@@ -59,7 +65,40 @@ nav li{
 	line-height: 1.5em;
 	padding: 1em;
 	}
+
+#home h3{	
+	font-size: 1.4em;
+	line-height: 1.286em;
+	font-weight: bold;
+	padding-bottom: 1.8em;
+	}
 	
+/*Resume Specifics*/
+	
+h2{
+	font-size: 1.8em;
+	font-style: italic;
+	line-height: 1em;
+	text-align: center;
+	}
+
+	#address{
+	text-align: center;
+	padding-bottom: 1.8em;
+	border-bottom-style: groove;
+	}
+	
+#resume ul{
+	padding-bottom: 1.8em;
+	}
+	
+#work ul, #leadership ul{
+	list-style: disc;
+	}
+	
+#cape{
+	padding-top: 1.8em;
+	}
 	
 	/*Footer Styles*/
 	
@@ -92,7 +131,7 @@ nav li{
 /*Media Queries*/
 
 @media screen and (min-width: 32em){ /*change min width*/
-	ul li{
+	nav ul li{
 		display:inline;
 		}
 	}
