@@ -1,5 +1,6 @@
 /*CSS for Multi-Page Website*/
 
+
 /*Overall Styling*/
 
 body{	
@@ -40,16 +41,12 @@ nav li{
 	padding: 1em;
 	}
 
-#homelink{
-	float:right;
-	padding-right: 2em;
-	}
-	
 #content{
 	padding-top: 3.6em;
 	padding-left: 2em;
 	padding-right: 2em;
 	}
+	
 		
 /*Homepage Specifics*/
 
@@ -73,6 +70,7 @@ nav li{
 	padding-bottom: 1.8em;
 	}
 	
+	
 /*Resume Specifics*/
 	
 h2{
@@ -82,7 +80,7 @@ h2{
 	text-align: center;
 	}
 
-	#address{
+#address{
 	text-align: center;
 	padding-bottom: 1.8em;
 	border-bottom-style: groove;
@@ -98,6 +96,23 @@ h2{
 	
 #cape{
 	padding-top: 1.8em;
+	}
+	
+	
+	/*Contact Page Specifics*/
+	
+#tab{
+	text-indent: 3em;
+	}
+
+#emailme{
+	padding-bottom: 1.8em;
+	border-bottom-style: groove;
+	}
+	
+#socialmedia{
+	padding-top: 1.8em;
+	text-align: center;
 	}
 	
 	/*Footer Styles*/
