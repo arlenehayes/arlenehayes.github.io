@@ -1,0 +1,184 @@
+/*CSS for Multi-Page Website*/
+
+
+
+body{	
+	font-size: 10px; /*em sizing from here on out is based off a 10px scale*/
+	font-family: 'Istok Web', sans-serif;
+	line-height: 1.8em;
+	/*padding-left: 2em;*/
+	}
+	
+#pagecontent{
+	margin: auto;
+	}
+
+/*Home page*/
+h1{
+	font-size: 4.6em;
+	line-height: 1.28em;
+	text-align: center;
+	padding-top: 1.8em;
+	padding-bottom: 1.8em;
+	}
+
+#intro{	
+	background-color: rgba(174,117,178,.35);
+	text-align: center;
+	}
+	
+nav{
+	font-size: 1.2em;
+	line-height: 1.286em;
+	background-color: rgb(126,37,113);
+	font: white;
+	}
+
+a{
+	padding-left: 2em;
+	padding-right: 2em;
+	}
+	
+/*Rest of Website*/
+h2{
+	font-size: 1.8em;
+	line-height: 1em;
+	margin-top: 1em;
+	}
+	
+h3{	
+	font-size: 1.4em;
+	font-weight: bold;
+	padding-top: 1em;
+	}
+	
+h4{
+	font-size: 1.2em;
+	}
+	
+p{
+	font-size: 1.2em;
+	}
+	
+#homelink{
+	float:right;
+	}
+	
+div{
+	font-size: 1.2em;
+	line-height: 1.5em;
+	}
+
+#address{
+	padding-top: .5em;
+	padding-bottom: 1em;
+	}
+
+
+	/*Link Styles*/
+a:link{
+	text-decoration: none;
+	}
+a:hover{
+
+	}
+	
+	
+/*Contact page styling*/
+
+#emailme h3{
+	text-align: left;
+	padding-bottom: 1.8em;
+	}
+	
+#emailme{
+	width: 80%;
+	margin: auto;
+	}
+	
+
+form p + p{
+	margin-top: 1em;
+	}
+
+label{
+	font-size: 1.2em;
+	line-height: 1.286em;
+	text-align: left;
+	display: block;
+	/*width: 9em;*/
+	}
+	
+input, textarea, select {
+	font-size: 1.2em;
+	width: 60%;
+	margin: 0;
+	display: block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 0.1em solid rgb(204,204,204);
+	border-radius: 0.4em;
+	padding: .2em;
+	line-height: 1.5em;
+	}	
+	
+#message{
+	width:60%;
+	height: 9em;
+	font-size: 1.2em;
+	}
+	
+button {
+	margin-top: 1.286em;
+	margin-bottom: 3.6em;
+	border-radius: .8em;
+	}
+
+#socialmedia{
+	padding-top: 2.4em;
+	text-align: center;
+	font-size: 1.4em;
+	line-height: 1.286em;
+	}	
+
+	
+/*Media Queries for Contact Page*/
+/*
+@media screen and (min-width: 30em){
+	label{
+		text-align: left;
+		float:left;
+		width: 20%		
+		}
+	input, textarea, select{
+		float: none;
+		}
+	}
+	*/
+	
+/*Footer*/
+
+#footer{
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	/*height: 8.28em; /*Same height as padding above name in intro*/
+	background-color: rgba(174,117,178,.35);
+	margin-top: 7.2em;
+	border-top-color: purple;
+	border-top-width: thick;
+	}
+	
+#copyright{
+	padding-top:0.8em;
+	padding-bottom:1em;
+	}
+	
+
+	
+
+	
+	
+
+	

@@ -1,184 +1,217 @@
 /*CSS for Multi-Page Website*/
 
 
+/*Overall Styling*/
 
 body{	
 	font-size: 10px; /*em sizing from here on out is based off a 10px scale*/
 	font-family: 'Istok Web', sans-serif;
 	line-height: 1.8em;
-	/*padding-left: 2em;*/
 	}
 	
-#pagecontent{
-	margin: auto;
+#content{
+	font-size: 1.2em;
+	line-height: 1.5em;
 	}
 
-/*Home page*/
-h1{
-	font-size: 4.6em;
-	line-height: 1.28em;
-	text-align: center;
-	padding-top: 1.8em;
-	padding-bottom: 1.8em;
-	}
-
-#intro{	
+	
+	/*Header Styles*/
+	
+#header{	
 	background-color: rgba(174,117,178,.35);
 	text-align: center;
+	}
+	
+h1{
+	font-size: 1.8em;
+	line-height: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
 	}
 	
 nav{
 	font-size: 1.2em;
-	line-height: 1.286em;
-	background-color: rgb(126,37,113);
-	font: white;
+	line-height: 1.5;
+	padding: 1em;
+	background-color: rgba(126,37,113,.6);
+	}
+	
+nav li{
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 1em;
 	}
 
-a{
+#content{
+	padding-top: 3.6em;
 	padding-left: 2em;
 	padding-right: 2em;
 	}
 	
-/*Rest of Website*/
-h2{
-	font-size: 1.8em;
-	line-height: 1em;
-	margin-top: 1em;
-	}
-	
-h3{	
-	font-size: 1.4em;
-	font-weight: bold;
-	padding-top: 1em;
-	}
-	
-h4{
-	font-size: 1.2em;
-	}
-	
-p{
-	font-size: 1.2em;
-	}
-	
-#homelink{
-	float:right;
-	}
-	
-div{
-	font-size: 1.2em;
-	line-height: 1.5em;
-	}
+		
+/*Homepage Specifics*/
 
-#address{
-	padding-top: .5em;
+#home h1{
+	font-size: 2.4em;
+	line-height: .75em;
+	padding-top: 1em;
 	padding-bottom: 1em;
 	}
-
-
-	/*Link Styles*/
-a:link{
-	text-decoration: none;
-	}
-a:hover{
-
-	}
 	
-	
-/*Contact page styling*/
+#home nav li{
+	font-size: 1.2em;
+	line-height: 1.5em;
+	padding: 1em;
+	}
 
-#emailme h3{
-	text-align: left;
+#home h3{	
+	font-size: 1.4em;
+	line-height: 1.286em;
+	font-weight: bold;
+	padding-top: 1.8em;
 	padding-bottom: 1.8em;
 	}
 	
-#emailme{
-	width: 80%;
-	margin: auto;
+#home p{
+	padding-bottom: 0.8em;
 	}
 	
-
-form p + p{
-	margin-top: 1em;
+img{
+	display: block;
+	margin:auto;
+	vertical-align: text-top;
+	padding-bottom: 1.8em;
+	}
+	
+#quote{
+	text-align: center;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	}
+	
+	
+/*Resume Specifics*/
+	
+h2{
+	font-size: 1.8em;
+	font-style: italic;
+	line-height: 1em;
+	text-align: center;
 	}
 
-label{
-	font-size: 1.2em;
-	line-height: 1.286em;
-	text-align: left;
-	display: block;
-	/*width: 9em;*/
+#address{
+	text-align: center;
+	padding-bottom: 1.8em;
+	border-bottom-style: groove;
+	}
+	
+#resume ul{
+	padding-bottom: 1.8em;
+	}
+	
+#resume nav ul{
+	padding-bottom: 1em;
+	}
+	
+#work ul, #leadership ul{
+	list-style: disc;
+	}
+	
+#cape{
+	padding-top: 1.8em;
+	}
+	
+	
+	/*Portfolio Specifics*/
+	
+#dummytext{
+	text-align: center;
+	margin-top: 1.2em;
+	font-size: 6em;
+	line-height: 1.5em;
+	border-top-style: groove;
+	border-bottom-style: groove;
+	}
+	
+	
+	/*Contact Page Specifics*/
+	
+#tab{
+	text-indent: 3em;
+	}
+
+#emailme{
+	padding-top: 1.8em;
+	padding-bottom: 1.8em;
+	border-bottom-style: groove;
+	}
+	
+#contact h3{
+	padding-bottom: 1.8em;
+	}
+	
+form li + li{
+	margin-top: 1em;
 	}
 	
 input, textarea, select {
-	font-size: 1.2em;
-	width: 60%;
-	margin: 0;
 	display: block;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	border: 0.1em solid rgb(204,204,204);
-	border-radius: 0.4em;
-	padding: .2em;
-	line-height: 1.5em;
 	}	
-	
-#message{
-	width:60%;
-	height: 9em;
-	font-size: 1.2em;
-	}
 	
 button {
 	margin-top: 1.286em;
-	margin-bottom: 3.6em;
 	border-radius: .8em;
 	}
-
+	
 #socialmedia{
-	padding-top: 2.4em;
+	padding-top: 1.8em;
 	text-align: center;
 	font-size: 1.4em;
-	line-height: 1.286em;
-	}	
-
-	
-/*Media Queries for Contact Page*/
-/*
-@media screen and (min-width: 30em){
-	label{
-		text-align: left;
-		float:left;
-		width: 20%		
-		}
-	input, textarea, select{
-		float: none;
-		}
+	line-height: 1em;
 	}
-	*/
 	
-/*Footer*/
-
+#socialmedia li{
+	padding: 1em;
+	font-weight: bold;
+	}
+	
+	/*Footer Styles*/
+	
 #footer{
 	text-align: center;
-	bottom: 0;
-	width: 100%;
-	/*height: 8.28em; /*Same height as padding above name in intro*/
-	background-color: rgba(174,117,178,.35);
 	margin-top: 7.2em;
-	border-top-color: purple;
-	border-top-width: thick;
+	background-color: rgba(174,117,178,.35);
 	}
 	
 #copyright{
-	padding-top:0.8em;
-	padding-bottom:1em;
+	padding-top:0.9em;
+	padding-bottom:0.9em;
+	background-color: rgba(126,37,113,.6);
 	}
-	
+
+#medialinks li{
+	display: inline;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	padding: 1em;
+	padding-bottom: 0;
+	}
 
 	
+	/*Link Styles*/
+a:link{
+	text-decoration: none;
+	color: rgb(105,32,99)
+	}
+a:hover{
+	color: rgb(247,145,30)
+	}
 
-	
-	
 
-	
+/*Media Queries*/
+
+@media screen and (min-width: 32em){ /*change min width*/
+	nav ul li{
+		display:inline;
+		}
+	}
